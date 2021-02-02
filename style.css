@@ -46,7 +46,7 @@ h1{
 span{
   font-size: 20px;
 }
-.button{
+.buttons{
   width:350px;
   display: flex;
   justify-content: space-around;
@@ -102,9 +102,6 @@ span{
 }
 .item__thumbnail{
   height: 30px;
-}
-.item__description{
-
 }
 h1{
   text-align: center;

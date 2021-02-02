@@ -8,28 +8,28 @@
       "image": "img/pink_t.png"
     },
     {
-      "type": "pants",
+      "type": "tpants",
       "gender": "남성",
       "size": "작은 사이즈",
       "color": "blue",
       "image": "img/blue_p.png"
     },
     {
-      "type": "pants",
+      "type": "tpants",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
       "image": "img/yellow_p.png"
     },
     {
-      "type": "skirt",
+      "type": "tskirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
       "image": "img/yellow_s.png"
     },
     {
-      "type": "skirt",
+      "type": "tskirt",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "blue",
@@ -50,7 +50,7 @@
       "image": "img/yellow_t.png"
     },
     {
-      "type": "pants",
+      "type": "tpants",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "pink",
@@ -64,28 +64,28 @@
       "image": "img/pink_t.png"
     },
     {
-      "type": "pants",
+      "type": "tpants",
       "gender": "남성",
       "size": "작은 사이즈",
       "color": "blue",
       "image": "img/blue_p.png"
     },
     {
-      "type": "pants",
+      "type": "tpants",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
       "image": "img/yellow_p.png"
     },
     {
-      "type": "skirt",
+      "type": "tskirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
       "image": "img/yellow_s.png"
     },
     {
-      "type": "skirt",
+      "type": "tskirt",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "blue",
@@ -106,7 +106,7 @@
       "image": "img/yellow_t.png"
     },
     {
-      "type": "pants",
+      "type": "tpants",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "pink",
