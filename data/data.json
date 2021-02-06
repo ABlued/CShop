@@ -5,112 +5,176 @@
       "gender": "여성",
       "size": "큰 사이즈",
       "color": "pink",
-      "image": "img/pink_t.png"
+      "image": "img/pink_t.png",
+      "length": "120cm",
+      "Material": "Polyester",
+      "comment": "",
+      "TotalScore": "4.4"
     },
     {
       "type": "tpants",
       "gender": "남성",
       "size": "작은 사이즈",
       "color": "blue",
-      "image": "img/blue_p.png"
+      "image": "img/blue_p.png",
+      "length": "80cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.4"
     },
     {
       "type": "tpants",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
-      "image": "img/yellow_p.png"
+      "image": "img/yellow_p.png",
+      "length": "80cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.3"
     },
     {
       "type": "tskirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
-      "image": "img/yellow_s.png"
+      "image": "img/yellow_s.png",
+      "length": "55cm",
+      "Material": "Polyester",
+      "comment": "",
+      "TotalScore": "4.8"
     },
     {
       "type": "tskirt",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "blue",
-      "image": "img/blue_s.png"
+      "image": "img/blue_s.png",
+      "length": "50cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.8"
     },
     {
       "type": "tshirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "blue",
-      "image": "img/blue_t.png"
+      "image": "img/blue_t.png",
+      "length": "45cm",
+      "Material": "Polyester",
+      "comment": "",
+      "TotalScore": "4.3"
     },
     {
       "type": "tshirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
-      "image": "img/yellow_t.png"
+      "image": "img/yellow_t.png",
+      "length": "50cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.7"
     },
     {
       "type": "tpants",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "pink",
-      "image": "img/pink_p.png"
+      "image": "img/pink_p.png",
+      "length": "80cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.7"
     },
     {
       "type": "tshirt",
       "gender": "여성",
       "size": "큰 사이즈",
       "color": "pink",
-      "image": "img/pink_t.png"
+      "image": "img/pink_t.png",
+      "length": "50cm",
+      "Material": "Polyester",
+      "comment": "",
+      "TotalScore": "4.6"
     },
     {
       "type": "tpants",
       "gender": "남성",
       "size": "작은 사이즈",
       "color": "blue",
-      "image": "img/blue_p.png"
+      "image": "img/blue_p.png",
+      "length": "90cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.3"
     },
     {
       "type": "tpants",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
-      "image": "img/yellow_p.png"
+      "image": "img/yellow_p.png",
+      "length": "80cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.9"
     },
     {
       "type": "tskirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
-      "image": "img/yellow_s.png"
+      "image": "img/yellow_s.png",
+      "length": "45cm",
+      "Material": "Polyester",
+      "comment": "",
+      "TotalScore": "4.6"
     },
     {
       "type": "tskirt",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "blue",
-      "image": "img/blue_s.png"
+      "image": "img/blue_s.png",
+      "length": "45cm",
+      "Material": "Polyester",
+      "comment": "",
+      "TotalScore": "4.9"
     },
     {
       "type": "tshirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "blue",
-      "image": "img/blue_t.png"
+      "image": "img/blue_t.png",
+      "length": "50cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.8"
     },
     {
       "type": "tshirt",
       "gender": "남성",
       "size": "큰 사이즈",
       "color": "yellow",
-      "image": "img/yellow_t.png"
+      "image": "img/yellow_t.png",
+      "length": "50cm",
+      "Material": "Fiber",
+      "comment": "",
+      "TotalScore": "4.6"
     },
     {
       "type": "tpants",
       "gender": "여성",
       "size": "작은 사이즈",
       "color": "pink",
-      "image": "img/pink_p.png"
+      "image": "img/pink_p.png",
+      "length": "90cm",
+      "Material": "Polyester",
+      "comment": "",
+      "TotalScore": "4.6"
     }
   ]
 }
