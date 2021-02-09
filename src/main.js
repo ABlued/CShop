@@ -12,11 +12,23 @@ function displayItems(itmes){
 //JSON에서 받아온 데이터를 문자열로 변환하는 함수
 function createHTMLString(item){
     return `
-    <li class="item">
+    <li onclick="displayDetail()" onmouseout="hiddenDetail()" class="item">
     <img src="${item.image}" alt="${item.type}" class="item__thumbnail"/>
     <span class="item__description">${item.gender}, ${item.size}</span>
+    <div class="item__detail" style="display: none;">
+        <span class="item__detail__element">길이 : ${item.length} 소재 : ${item.Material} 별점: ${item.TotalScore}</span>
+        <span class="item__detail__element">설명 : ${item.comment}</span>
+    </div>
   </li>
-  `;
+  `;// onmouseenter="displayDetail()" onmouseout="hiddenDetail()"
+}
+function displayDetail(){
+    const item__detail = document.querySelector('.item__detail');
+    item__detail.style.display = "block";
+}
+function hiddenDetail(){
+    const item__detail = document.querySelector('.item__detail');
+    item__detail.style.display = "none";
 }
 
 function setEventListeners(items){

@@ -96,10 +96,18 @@ span{
   margin-top: 10px;
   border-radius: var(--size-border);
   width: 350px;
+  transition: all 0.5s;
+}
+.item:hover{
+  transform: translate(0, -10px);
 }
 .item, .item__thumbnail, .item__description{
   background-color: white;
 }
+.item__detail, .item__detail__element{
+  background-color: var(--color-white);
+}
+
 .item__thumbnail{
   height: 30px;
 }
