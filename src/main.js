@@ -7,28 +7,70 @@ function loadItems(){
 //JSON에서 받아온 데이터를 출력하는 함수
 function displayItems(itmes){
     const container = document.querySelector('.items');
-    container.innerHTML = itmes.map(item => createHTMLString(item)).join('');       //받아온 것들을 문자열로 만들고 join으로 나눈다
+    // container.innerHTML = itmes.map(item => createHTMLString(item)).join('');       //받아온 것들을 문자열로 만들고 join으로 나눈다
+    while(container.hasChildNodes()){
+        container.removeChild(container.firstChild);
+    }
+    itmes.map(item => createHTMLString(item));
 }
 //JSON에서 받아온 데이터를 문자열로 변환하는 함수
 function createHTMLString(item){
-    return `
-    <li onclick="displayDetail()" onmouseout="hiddenDetail()" class="item">
-    <img src="${item.image}" alt="${item.type}" class="item__thumbnail"/>
-    <span class="item__description">${item.gender}, ${item.size}</span>
-    <div class="item__detail" style="display: none;">
-        <span class="item__detail__element">길이 : ${item.length} 소재 : ${item.Material} 별점: ${item.TotalScore}</span>
-        <span class="item__detail__element">설명 : ${item.comment}</span>
-    </div>
-  </li>
-  `;// onmouseenter="displayDetail()" onmouseout="hiddenDetail()"
+//     return `
+//     <li onclick="displayDetail()" onmouseout="hiddenDetail()" class="item">
+//     <img src="${item.image}" alt="${item.type}" class="item__thumbnail"/>
+//     <span class="item__description">${item.gender}, ${item.size}</span>
+//     <div class="item__detail" style="display: none;">
+//         <span class="item__detail__element">길이 : ${item.length} 소재 : ${item.Material} 별점: ${item.TotalScore}</span>
+//         <span class="item__detail__element">설명 : ${item.comment}</span>
+//     </div>
+//   </li>
+//   `;// onmouseenter="displayDetail()" onmouseout="hiddenDetail()"
+
+  const parentElement = document.querySelector('.items');
+  const li = document.createElement("li");
+  li.addEventListener("click",displayDetail);
+  li.addEventListener("mouseout",hiddenDetail);
+  li.setAttribute("class","item");
+
+  const img = document.createElement("img");
+  img.src = `${item.image}`;
+  img.alt = `${item.type}`;
+  img.setAttribute("class","item__thumbnail");
+
+  const span = document.createElement("span");
+  span.setAttribute("class", "item__description");
+  span.innerText = `${item.gender}` + ", " + `${item.size}`;
+
+  const div = document.createElement("div");
+  div.setAttribute("class","item__detail");
+  div.style.display = "none";
+
+  const spanInDiv1 = document.createElement("span");
+  spanInDiv1.setAttribute("class","item__detail__element")
+  spanInDiv1.innerText = "길이 : " + `${item.length}` + " 소재 : " + `${item.Material}` + " 별점 : " + `${item.TotalScore}`;
+  const spanInDiv2 = document.createElement("span");
+  spanInDiv2.setAttribute("class","item__detail__element")
+  spanInDiv2.innerText = "설명 : " + `${item.comment}`;
+
+  div.appendChild(spanInDiv1);
+  div.appendChild(spanInDiv2);
+  
+  li.appendChild(img);
+  li.appendChild(span);
+  li.appendChild(div);
+  parentElement.appendChild(li);
 }
-function displayDetail(){
-    const item__detail = document.querySelector('.item__detail');
-    item__detail.style.display = "block";
+function displayDetail(event){
+    const target = event.target.children[2];
+    target.style.display = "block";
+    // const item__detail = document.querySelector('.item__detail');
+    // item__detail.style.display = "block";
 }
 function hiddenDetail(){
-    const item__detail = document.querySelector('.item__detail');
-    item__detail.style.display = "none";
+    const target = event.target.children[2];
+    target.style.display = "none";
+    // const item__detail = document.querySelector('.item__detail');
+    // item__detail.style.display = "none";
 }
 
 function setEventListeners(items){

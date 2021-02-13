@@ -93,7 +93,7 @@ span{
 } 
 .item{
   padding:5px;
-  margin-top: 10px;
+  margin-top: 15px;
   border-radius: var(--size-border);
   width: 350px;
   transition: all 0.5s;
