@@ -8,10 +8,10 @@ function loadItems(){
 function displayItems(itmes){
     const container = document.querySelector('.items');
     // container.innerHTML = itmes.map(item => createHTMLString(item)).join('');       //받아온 것들을 문자열로 만들고 join으로 나눈다
-    while(container.hasChildNodes()){
-        container.removeChild(container.firstChild);
+    while(container.hasChildNodes()){       // 이미 화면에 나타난 상품이 있을 경우
+        container.removeChild(container.firstChild);        // 첫번째 자식을 지워 삭제한다
     }
-    itmes.map(item => createHTMLElement(item));
+    itmes.map(item => createHTMLElement(item));     // 모두 삭제한 후 조건에 맞는 상품들을 다시 표시한다.
 }
 //JSON에서 받아온 데이터를 문자열로 변환하는 함수
 // function createHTMLString(item){
