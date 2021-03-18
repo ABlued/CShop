@@ -11,21 +11,24 @@ function displayItems(itmes){
     while(container.hasChildNodes()){
         container.removeChild(container.firstChild);
     }
-    itmes.map(item => createHTMLString(item));
+    itmes.map(item => createHTMLElement(item));
 }
 //JSON에서 받아온 데이터를 문자열로 변환하는 함수
-function createHTMLString(item){
-//     return `
-//     <li onclick="displayDetail()" onmouseout="hiddenDetail()" class="item">
-//     <img src="${item.image}" alt="${item.type}" class="item__thumbnail"/>
-//     <span class="item__description">${item.gender}, ${item.size}</span>
-//     <div class="item__detail" style="display: none;">
-//         <span class="item__detail__element">길이 : ${item.length} 소재 : ${item.Material} 별점: ${item.TotalScore}</span>
-//         <span class="item__detail__element">설명 : ${item.comment}</span>
-//     </div>
-//   </li>
-//   `;// onmouseenter="displayDetail()" onmouseout="hiddenDetail()"
+// function createHTMLString(item){
+    //     return `
+    //     <li onclick="displayDetail()" onmouseout="hiddenDetail()" class="item">
+    //     <img src="${item.image}" alt="${item.type}" class="item__thumbnail"/>
+    //     <span class="item__description">${item.gender}, ${item.size}</span>
+    //     <div class="item__detail" style="display: none;">
+    //         <span class="item__detail__element">길이 : ${item.length} 소재 : ${item.Material} 별점: ${item.TotalScore}</span>
+    //         <span class="item__detail__element">설명 : ${item.comment}</span>
+    //     </div>
+    //   </li>
+    //   `;// onmouseenter="displayDetail()" onmouseout="hiddenDetail()"
+// }
 
+//JSON에서 받아온 데이터를 기반으로 HTMLElement를 생성하는 함수
+function createHTMLElement(item){
   const parentElement = document.querySelector('.items');
   const li = document.createElement("li");
   li.addEventListener("click",displayDetail);
@@ -60,6 +63,8 @@ function createHTMLString(item){
   li.appendChild(div);
   parentElement.appendChild(li);
 }
+
+// 해당 상품을 클릭 시 상세정보를 보여주는 함수
 function displayDetail(event){
     const target = event.target.children[2];
     console.log(target);
@@ -67,6 +72,8 @@ function displayDetail(event){
     // const item__detail = document.querySelector('.item__detail');
     // item__detail.style.display = "block";
 }
+
+// 해당 상품에서 마우스포인터가 빠져나올시 상세정보를 감추는 함수
 function hiddenDetail(event){
     const target = event.target.children[2];
     console.log(target);
