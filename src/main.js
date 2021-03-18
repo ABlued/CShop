@@ -62,12 +62,14 @@ function createHTMLString(item){
 }
 function displayDetail(event){
     const target = event.target.children[2];
+    console.log(target);
     target.style.display = "block";
     // const item__detail = document.querySelector('.item__detail');
     // item__detail.style.display = "block";
 }
-function hiddenDetail(){
+function hiddenDetail(event){
     const target = event.target.children[2];
+    console.log(target);
     target.style.display = "none";
     // const item__detail = document.querySelector('.item__detail');
     // item__detail.style.display = "none";
