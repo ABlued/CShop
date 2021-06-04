@@ -51,12 +51,8 @@ function createHTMLElement(item){
   const spanInDiv1 = document.createElement("span");
   spanInDiv1.setAttribute("class","item__detail__element")
   spanInDiv1.innerText = "길이 : " + `${item.length}` + " 소재 : " + `${item.Material}` + " 별점 : " + `${item.TotalScore}`;
-  const spanInDiv2 = document.createElement("span");
-  spanInDiv2.setAttribute("class","item__detail__element")
-  spanInDiv2.innerText = "설명 : " + `${item.comment}`;
 
   div.appendChild(spanInDiv1);
-  div.appendChild(spanInDiv2);
   
   li.appendChild(img);
   li.appendChild(span);
