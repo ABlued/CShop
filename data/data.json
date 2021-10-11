@@ -8,7 +8,7 @@
       "image": "img/pink_t.png",
       "length": "120cm",
       "Material": "Polyester",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.4"
     },
     {
@@ -19,7 +19,7 @@
       "image": "img/blue_p.png",
       "length": "80cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.4"
     },
     {
@@ -30,7 +30,7 @@
       "image": "img/yellow_p.png",
       "length": "80cm",
       "Material": "Fiber",
-      "comment": "멋있네여 ㅎㅎ",
+      "comment": "안녕하세요멋있네여 ㅎㅎ",
       "TotalScore": "4.3"
     },
     {
@@ -41,7 +41,7 @@
       "image": "img/yellow_s.png",
       "length": "55cm",
       "Material": "Polyester",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.8"
     },
     {
@@ -52,7 +52,7 @@
       "image": "img/blue_s.png",
       "length": "50cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.8"
     },
     {
@@ -63,7 +63,7 @@
       "image": "img/blue_t.png",
       "length": "45cm",
       "Material": "Polyester",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.3"
     },
     {
@@ -74,7 +74,7 @@
       "image": "img/yellow_t.png",
       "length": "50cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.7"
     },
     {
@@ -85,7 +85,7 @@
       "image": "img/pink_p.png",
       "length": "80cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.7"
     },
     {
@@ -96,7 +96,7 @@
       "image": "img/pink_t.png",
       "length": "50cm",
       "Material": "Polyester",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.6"
     },
     {
@@ -107,7 +107,7 @@
       "image": "img/blue_p.png",
       "length": "90cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.3"
     },
     {
@@ -118,7 +118,7 @@
       "image": "img/yellow_p.png",
       "length": "80cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.9"
     },
     {
@@ -129,7 +129,7 @@
       "image": "img/yellow_s.png",
       "length": "45cm",
       "Material": "Polyester",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.6"
     },
     {
@@ -140,7 +140,7 @@
       "image": "img/blue_s.png",
       "length": "45cm",
       "Material": "Polyester",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.9"
     },
     {
@@ -151,7 +151,7 @@
       "image": "img/blue_t.png",
       "length": "50cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.8"
     },
     {
@@ -162,7 +162,7 @@
       "image": "img/yellow_t.png",
       "length": "50cm",
       "Material": "Fiber",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.6"
     },
     {
@@ -173,7 +173,7 @@
       "image": "img/pink_p.png",
       "length": "90cm",
       "Material": "Polyester",
-      "comment": "",
+      "comment": "안녕하세요",
       "TotalScore": "4.6"
     }
   ]
